@@ -1,61 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Desafio - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
     <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#tags">Falando sobre Tags</a></li>
+        <li><a href="#textos">Tags de textos</a></li>
+        <li><a href="#listas">Tags de listas</a></li>
+        <li><a href="#links">links</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="estrutura">Estrutura básica do HTML</h2>
+    <a href="#inicio">Voltar ao início</a>
+    <p> A estrutura basica de uma página html são as tags HTML, HEAD e BODY. A tag html delimita todo o código html.
+      Dentro desta tag estarão as tags head e body. a tag head conterá outras tag de configuração da página htmk, como 
+      as tags meta, lang e title, entro outras.
+    </p>
+    <p>A tag body contem toda a marcação da página que será mostrada no browser. Terão tags de formatação e estrutura como p, a href, ul, ol, e etc.</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+   <h2 id="tags">Falando sobre Tags</h2>
+   <a href="#inicio">Voltar ao início</a>
+   <p>Tags são marcações num documento html. São as tags que darão formato e estrutura a página. As tags são
+      escritas com o simbolo de &lt;tag&gt;, na maioria das tags há uma tag de fechamento que é ela mesma com uma barra,
+      assim: &lt;/tag&gt;.
+   </p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+   <h2 id="textos">Tags de textos</h2>
+   <a href="#inicio">Voltar ao início</a>
+   <p>As tags de textos são usadas para formatar os textos. Também para dar formato ou função ao texto. A tag &lt;/p&gt;, que tem a tag de fechamento &lt;/p&gt;, 
+      é usada para delimitar um texto parágrafo. Coloca-se a tag &lt;p&gt; no inicio do texto e após o texto
+      põe-se a tag de fechamento &lt;/p&gt;, com isso o navegador vai pular uma linha para comoçar outro parágrafo
+      ou para exibir outros elementos.
+   </p>
+   <p>Também são tags de textos &lt;h1&gt;, &lt;h2&gt; até &lt;h6&gt;. Estas tag são tags de título, sendo
+      o h1 o maior e de mais importancia, e vai diminuindo até chegar ao h6
+   </p>
+   <p>Temos também as tags &lt;strong&gt;, &lt;i&gt; e &lt;span&gt; alem de outras</p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+   <h2 id="listas">Tags de listas</h2>
+   <a href="#inicio">Voltar ao início</a>
+   <p>As tags de listas servem para colocar textos em listas, como uma lista de compras, por exemplo. Ela começa 
+      com uma UL se for uma lista simples ou OL se for uma lista ordenada (numerada) e cada item da lista
+      inicia com uma li.
+      exemplo de listas:
+
+   </p>
+   <ul>Lista Comum ou Não-ordenada
+      <li>Primeiro item</li>
+      <li>segundo item</li>
+      <li>terceiro item</li>
+   </ul><br>
+   <ol>Lista ordenada
+      <li>Primeiro item</li>
+      <li>segundo item</li>
+      <li>terceiro item</li>
+   </ol>
+
+   <h2 id="links">Links</h2>
+   <a href="#inicio">Voltar ao início</a>
+   <p>Os links são ligações para outros sites, páginas ou localizações na própria página. O link 
+      começa com &lt;a&gt; e termina com &lt;/a&gt;. No meio se coloca uma paravra ou mais que definen
+      o link. A tag link tem atributos que são o href, que é o local do link, e o target, que diz onde será
+      exibida a página.
+
+   </p>
+
+    <h2 id="referencias">Links de referências</h2>
     <ul>
         <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="#">http://google.com</a></li>
     </ul>
 
 </body>
